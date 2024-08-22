@@ -1,1 +1,11 @@
-{}
+{
+  "name": "inline-test",
+  "description": "<p>Первый макет с адаптивом</p>\r <p>Языки: HTML, CSS.</p>",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
