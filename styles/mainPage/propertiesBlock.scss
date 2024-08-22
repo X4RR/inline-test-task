@@ -1,0 +1,43 @@
+@import '../helpers/colorsStyle.scss';
+@import '../helpers/elementsStyle.scss';
+
+.properties {
+  max-height: 400px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.properties-block {
+  max-width: 484px;
+  display: flex;
+  flex-direction: column;
+}
+
+.properties-header {
+  font-weight: $medium;
+
+  font-size: 16px;
+}
+
+.right-side {
+  text-align: left;
+}
+.left-side {
+  text-align: right;
+}
+.properties-text {
+  color: $desc-color;
+  font-weight: $regular;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .text-small {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    color: $desc-color;
+  }
+}

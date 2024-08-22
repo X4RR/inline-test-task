@@ -1,0 +1,24 @@
+@import 'colorsStyle.scss';
+
+$semibold: 600;
+$regular: 400;
+$medium: 500;
+
+.text-description {
+  font-weight: $regular;
+  font-size: 14px;
+  line-height: 24px;
+  color: $font-color;
+}
+
+.text-small {
+  font-size: 12px;
+  font-weight: $regular;
+}
+
+.button-main {
+  font-weight: $semibold;
+  border-radius: 5px;
+  height: 40px;
+  width: 184px;
+}
